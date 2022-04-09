@@ -2,12 +2,14 @@
   "name": "docs",
   "version": "0.0.0",
   "private": true,
+  "homepage": "https://mage-io.github.io/docs",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "predeploy": "npm run build",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "gh-pages -d build",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -33,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }

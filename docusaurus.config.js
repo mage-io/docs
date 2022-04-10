@@ -23,14 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/mage-io',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/mage-io',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -55,10 +53,9 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/docs/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://console.magedev.xyz',
+            label: 'Console',
             position: 'right',
           },
         ],
@@ -70,7 +67,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Documentation',
                 to: '/docs/docs/intro',
               },
             ],
@@ -80,15 +77,11 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://stackoverflow.com/questions/tagged/magedev',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://discordapp.com/invite/magedev',
               },
             ],
           },
@@ -96,17 +89,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/docs/blog',
+                label: 'Portal',
+                href: 'https://console.magedev.xyz',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'GitLab',
+                href: 'https://gitlab.com/mage-repo',
+              },
+              {
+                label: 'Sample output',
+                href: 'https://gitlab.com/mage-repo/example',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Code4Me Pvt. Ltd.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Code4Me Technologies Pvt. Ltd.`,
       },
       prism: {
         theme: lightCodeTheme,

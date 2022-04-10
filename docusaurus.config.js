@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
   organizationName: 'mage-io', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
@@ -23,12 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mage-io',
+          editUrl: 'https://github.com/mage-io/docs/blob/master',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/mage-io',
+            'https://github.com/mage-io/docs/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,14 +44,14 @@ const config = {
         title: 'My Site',
         logo: {
           alt: 'My Site Logo',
-          src: '/docs/img/logo.svg',
+          src: '/docs/img/favicon.png',
         },
         items: [
           {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Documentation',
           },
           {
             href: 'https://console.magedev.xyz',

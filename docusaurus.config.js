@@ -41,9 +41,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'Mage Documentation',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Mage',
           src: '/docs/img/favicon.png',
         },
         items: [

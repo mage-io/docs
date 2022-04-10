@@ -3,6 +3,9 @@ sidebar_position: 1
 ---
 
 # Editor Section
+
+![Screen Image](/img/editor/screen.png)
+
 The editor section is where all the *“magic”* in mage happens. The editor page allows users to create microservices, add micro-components to the service, connect them together and therefore create a full-fledged microservice-based backend system.
 
 On the editor page a user is allowed to:

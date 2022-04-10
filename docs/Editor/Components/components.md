@@ -12,19 +12,20 @@ A component is the smallest unit of logical code that a service can effectively 
 
 To take a deeper dive into what these individual components are capable of doing, do check the document for specific modules, or by clicking one of the links below:
 - Network modules
-    - Orchestrator
-    - gRPC
-    - HTTP
+    - [Orchestrator](./Orchestrator)
+    - [gRPC](./gRPC%20Connector)
+    - [HTTP](./HTTP%20Connector)
 - Storage Modules
-    - MongoDB
-    - SQL
-    - File Storage (S3)
-    - Elastic Search
-    - Redis
+    - [MongoDB](./MongoDB)
+    - [SQL](./SQL)
+    - [File Storage (S3)](./File%20Storage)
+    - [Elastic Search](./Elastic%20Search)
+    - [Redis](./Redis)
 - Strategies
-    - Look Aside cache
+    - [Look Aside cache](./Look%20Aside%20Cache)
 - Message Queue
-    - Kafka
+    - Kafka (Coming Soon...)
 - Middlewares
-    - Logging
-    - Monitoring
+    - Logging (Coming Soon...)
+    - Rate Limiting (Coming Soon...)
+    - [Monitoring](./Monitoring)

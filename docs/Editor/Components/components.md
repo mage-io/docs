@@ -33,6 +33,21 @@ All components can be configured separately in order to define their behaviors. 
 The sidebar shows two sections:
 1. **Connections** - These are common for all components and show the input/output which can be expected from the component.
 2. **Configuration** - These are component-specific configurations which are used for defining the selected component's behavior.
+
+#### Connections
+Connections are a defining property of every component and these allow the components to interact with each other. A connection can be thought of as a mechanism to interact with any component. An analogy to connections in mage could be what functions do in a language - they help you abstract some logic by reading arguments and returning data accordingly. Similarly, in case of components, connections allow the components to receive information from the end user and take actions according to the input.
+
+The default behavior for all components in Mage is to allow the user to Create a connection method, and then define it's input/output arguments. As we set these arguments, the component becomes ready to accept traffic from any other component (and in some cases like gRPC, it becomes capable of accepting external traffic).
+Some components do not directly allow editing parts of connections like request/response or even the connection name, but instead derive them based on the configurations provided. For Example, *SQL* component allows users to provide arguments based the configuration provided in the configuration section, but still needs the user to create connection method.
+
+#### Configurations
+For most of the components in mage, the user is also allowed to provide a configuration for the endpoints/databases/queries, etc. for the component. This allows the user to modify the behavior for every method and the component. This section also allows the user to define various properties for each method which enhances the response for every method allows users to curate every method based on their need.
+For example, *SQL* component allows the user to define what arguments would be used in the where clause, what is the response type expected, whether the request is read write update or delete, or if user just wants to substitute a raw query with arguments.
+
+Splitting configurations and connections separately allows mage to isolate responsibiilities of every component, meanwhile allowing other components to interact with the current component and greatly enhancing the component's abilities. While connections allow users to simply define input/output for the component, configurations allow the user to define behavior for all the connections.
+
+#### Further Read
+Check individual components' documentation on what the connections and configurations mean for the component, and how they can be used to modify the component's behavior.
 ### Removing a component
 To Remove a component, simply double click and open the sidebar. At the bottom of the sidebar, a user can find a button "Remove" which allows the user to remove the component from canvas.
 When a component gets removed, all of it's connected configurations and its neighbouring configurations also get removed.

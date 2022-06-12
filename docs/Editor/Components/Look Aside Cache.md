@@ -12,7 +12,7 @@ Look aside caches are extremely useful when we have a read-heavy application whi
 ## Technical specification
 Generally, a look aside cache (LAC) combines two data sources (like `Redis` and `SQL`) to fetch the data. LACs are deployed to speed up the load times for services by combining a fast but limited (and generally temporary) data storage technology with a more resilient but slow read service like SQL.
 
-Mage's Look aside cache takes it one step further by providing a layered cache module for the services. The Look aside cache then loops through all the data sources one by one and fetch data from the first layer that returns the data.
+Amyst's Look aside cache takes it one step further by providing a layered cache module for the services. The Look aside cache then loops through all the data sources one by one and fetch data from the first layer that returns the data.
 
 ## How To use
 After adding the Look-aside component to canvas, we can start using it by linking other data modules to the output of the Look aside cache component.
@@ -61,8 +61,8 @@ Look aside cache is a very common industry pattern for implementing services. To
 - [Microsoft Docs](https://docs.microsoft.com/en-us/azure/architecture/patterns/cache-aside)
 
 ## Limitations
-Mage's look aside component is currently unable to persist data back to the lower layers i.e. the responsibility to write data back to cache currently lies with the user.
+Amyst's look aside component is currently unable to persist data back to the lower layers i.e. the responsibility to write data back to cache currently lies with the user.
 
 While this would be resolved in upcoming features, look aside cache is currently supported in it's entirety for only read purpose and does not perform any write operation. If you need the functionality soon, do reach out to us via Discord.
 
-Additionally, Mage also allows only the components which have the same request/response method arguments, or use a string based request/response arguments (like Redis' response). For other modules, we need to transform the request/response to make use of Look aside cache. however, this can be done easily using the [`Arbitrary Function`](#further-read) component which allows us to write our own logic.
+Additionally, Amyst also allows only the components which have the same request/response method arguments, or use a string based request/response arguments (like Redis' response). For other modules, we need to transform the request/response to make use of Look aside cache. however, this can be done easily using the [`Arbitrary Function`](#further-read) component which allows us to write our own logic.

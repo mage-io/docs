@@ -57,6 +57,6 @@ GetUserData(userName string, roll integer) (*entity.User)
 ```
 
 ## Further Read
-The orchestrator component is by far one of the most versatile component since it allows asynchoronous messaging to various middlewares and data sources. Additionally, every orchestrator is also treated as a data source in mage, and therefore it can be stacked together in order to create a clean, modular architecture.
+The orchestrator component is by far one of the most versatile component since it allows asynchoronous messaging to various middlewares and data sources. Additionally, every orchestrator is also treated as a data source in Amyst, and therefore it can be stacked together in order to create a clean, modular architecture.
 
-To understand how other data components and middlewares work, visit their respective documentation and try them on mage UI.
+To understand how other data components and middlewares work, visit their respective documentation and try them on Amyst UI.

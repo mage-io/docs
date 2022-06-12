@@ -6,14 +6,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Mage',
+  title: 'Amyst',
   tagline: 'A low code platform that enables you to build reliable backend applications faster.',
   url: 'https://console.amyst.co',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'mage-io', // Usually your GitHub org/user name.
+  organizationName: 'amyst-co', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   presets: [
@@ -23,12 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mage-io/docs/blob/master',
+          editUrl: 'https://github.com/amyst-co/docs/blob/master',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/mage-io/docs/blob/master',
+            'https://github.com/amyst-co/docs/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -41,9 +41,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Mage Documentation',
+        title: 'Amyst Documentation',
         logo: {
-          alt: 'Mage',
+          alt: 'Amyst',
           src: '/docs/img/favicon.png',
         },
         items: [

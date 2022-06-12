@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Profile Section
 
-The Profile page provides a high level overview of what the user activity has been over the past. It allows the user to hollistically check their activities on the Mage's platform. To access profile screen, click on **Navigate button (top right)** > **click profile picture**. 
+The Profile page provides a high level overview of what the user activity has been over the past. It allows the user to hollistically check their activities on the Amyst's platform. To access profile screen, click on **Navigate button (top right)** > **click profile picture**. 
 
 ![Page](/img/profile/page.png)
 

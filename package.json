@@ -2,7 +2,7 @@
   "name": "docs",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://mage-io.github.io/docs",
+  "homepage": "https://amyst-co.github.io/docs",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

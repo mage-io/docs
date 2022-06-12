@@ -5,7 +5,7 @@ sidebar_position: 5
 # Arbitrary Function
 ## Introduction
 ![Arbitrary Function](/img/editor/components/arbitrary/arbitrary.png)
-Mage provides high level modules for solving most common problems but every application requires its own set of business logics to solve their needs. To tackle this, Mage provides a high level code injection mechanism using the `Arbitrary function` module. The module is capable of running node.js (javascript) code and connect to several connected modules at will.
+Amyst provides high level modules for solving most common problems but every application requires its own set of business logics to solve their needs. To tackle this, Amyst provides a high level code injection mechanism using the `Arbitrary function` module. The module is capable of running node.js (javascript) code and connect to several connected modules at will.
 
 ## Technical specification
 The arbitrary function module can be treated as a "hook" in the developed microservice and provides a mechanism to inject code at runtime. Along with providing the capability to inject code, Arbitrary function module also solves a few problems to ease the developer's pain.

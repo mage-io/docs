@@ -34,7 +34,7 @@ When we use Mage, we can let go of the responsibility of writing down redundant 
 
 ## Getting Started
 ### Website
-Mage's website can be accessed using the portal [console.magedev.xyz](https://console.magedev.xyz).
+Mage's website can be accessed using the portal [console.amyst.co](https://console.amyst.co).
 ### Login 
 Mage currently supports **login with Google**. Mage does not persist any personal information on our end except your name, email, and profile photo - all of which are used to just identify the user logging in so that we can provide you your content.
 Once the user completes the login with Google flow, he/she is navigated straight to the editor page where the user can start building the application.

@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Mage',
   tagline: 'A low code platform that enables you to build reliable backend applications faster.',
-  url: 'https://console.magedev.xyz',
+  url: 'https://console.amyst.co',
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,7 +54,7 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://console.magedev.xyz',
+            href: 'https://console.amyst.co',
             label: 'Console',
             position: 'right',
           },
@@ -90,7 +90,7 @@ const config = {
             items: [
               {
                 label: 'Portal',
-                href: 'https://console.magedev.xyz',
+                href: 'https://console.amyst.co',
               },
               {
                 label: 'GitLab',

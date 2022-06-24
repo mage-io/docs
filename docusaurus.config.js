@@ -12,7 +12,7 @@ const config = {
   baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.svg',
   organizationName: 'amyst-co', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
@@ -44,7 +44,7 @@ const config = {
         title: 'Amyst Documentation',
         logo: {
           alt: 'Amyst',
-          src: '/docs/img/favicon.png',
+          src: '/docs/img/favicon.svg',
         },
         items: [
           {

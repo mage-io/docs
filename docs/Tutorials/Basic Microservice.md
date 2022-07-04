@@ -23,12 +23,13 @@ Once done, Amyst will automatically redirect to the editor page.
 ### Adding Modules
 1. Add Required modules ([gRPC](/docs/docs/Editor/Components/gRPC%20Connector) and [SQL](/docs/docs/Editor/Components/SQL))
 
-
+<p align="center">
 <img src="/docs/img/tutorials/basic_microservice/step_4.png" style={{height:"200px"}} />&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/docs/img/tutorials/basic_microservice/step_5.png" style={{height:"200px"}} /><br/>
+<img src="/docs/img/tutorials/basic_microservice/step_5.png" style={{height:"200px"}} />
+</p>
 
 2. Create a link between gRPC component's output to SQL's input.
-<img src="/docs/img/tutorials/basic_microservice/step_6.png" style={{height:"300px"}} />
+<p align="center"><img src="/docs/img/tutorials/basic_microservice/step_6.png" style={{height:"300px"}} /></p>
 
 ### Infrastructure Management
 

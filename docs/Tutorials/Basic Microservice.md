@@ -110,11 +110,10 @@ Navigate back to editor page to finish the final service setup.
 ![read_config_complete](/img/tutorials/basic_microservice/step_28.png)
 
 ### Final Result
-Once the build is complete, a merge request with the provided tag will be delivered to the repository in no time.
+Once the build is complete and your service is ready, the code is generated and delivered in your own repository. The code is generated in Go, which allows the services to run with high efficiency and throughput. The services are gRPC compatible and therefore, can be integrated with any language (ex: Java, Python, JavaScript, etc.).
 
 ![overview_build](/img/tutorials/basic_microservice/step_29.png)
 
-The code delivered is of highest quality and works seamlessly across platforms (gRPC compatible), right in your own repository!.
 ![generated_code](/img/tutorials/basic_microservice/step_30.png)
 
 

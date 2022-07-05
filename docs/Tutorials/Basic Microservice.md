@@ -16,24 +16,26 @@ The guide below allows any user to create a new sample microservice in less than
 
 ![login](/img/tutorials/basic_microservice/step_2.png)
 
-Once done, Amyst will automatically redirect to the editor page.
+Once new service is created, Amyst will automatically take to the editor page.
 
 ![editor_page](/img/tutorials/basic_microservice/step_3.png)
 
-### Adding Modules
-1. Add Required modules ([gRPC](/docs/docs/Editor/Components/gRPC%20Connector) and [SQL](/docs/docs/Editor/Components/SQL))
+### Adding Components
+1. Add components required for building your microservice, for ex. ([gRPC](/docs/docs/Editor/Components/gRPC%20Connector) and [SQL](/docs/docs/Editor/Components/SQL))
 
 <p align="center">
 <img src="/docs/img/tutorials/basic_microservice/step_4.png" style={{height:"200px"}} />&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/docs/img/tutorials/basic_microservice/step_5.png" style={{height:"200px"}} />
 </p>
 
-2. Create a link between gRPC component's output to SQL's input.
+2. Create links between the components, such as gRPC's output to SQL's input.
 <p align="center"><img src="/docs/img/tutorials/basic_microservice/step_6.png" style={{height:"300px"}} /></p>
 
 ### Infrastructure Management
 
-1. Configure Database by navigating to infrastructure management page
+Some components such as SQL require configurations like username, password, table schema, etc.
+
+1. Configure your SQL database by navigating to [infrastructure management](/docs/docs/Infrastructure%20Management) page.
 
 <p align="center">
 <img src="/docs/img/tutorials/basic_microservice/step_7.png" style={{height:"200px"}} /> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -43,13 +45,13 @@ Once done, Amyst will automatically redirect to the editor page.
 <img src="/docs/img/tutorials/basic_microservice/step_9.png" style={{height:"300px"}} />
 </p>
 
-2. Create Schema and add Metadata.
+2. Click on configure to create table Schema and add Metadata.
 
 ![schema_create](/img/tutorials/basic_microservice/step_10.png)
 
 <p align="center"><img src="/docs/img/tutorials/basic_microservice/step_11.png" style={{height:"400px"}} /></p>
 
-3. Once done, Save the infrastructure by clicking on save button on top.
+3. After completing schema and metadata creation, Save the infrastructure by clicking on save button on top.
 
 <p align="center"><img src="/docs/img/tutorials/basic_microservice/step_12.png" style={{width:"200px"}} /></p>
 
@@ -61,7 +63,7 @@ Navigate back to editor page to finish the final service setup.
 
 
 #### Enhance SQL component
-1. Configure the SQL component to add methods by double clicking the component / clicking on three dots on top-right.
+1. Create the required methods for SQL component by double clicking the component.
 
 <p align="center">
 
@@ -73,7 +75,7 @@ Navigate back to editor page to finish the final service setup.
 
 </p>
 
-2. Configure the SQL method created by clicking configure button.
+2. Define the behavior of the methods created for SQL by clicking on the configure button.
 
 ![configure_endpoint_sql](/img/tutorials/basic_microservice/step_20.png)
 
